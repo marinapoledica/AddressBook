@@ -1,0 +1,52 @@
+*{
+    font-family: 'Amatic SC', cursive;
+    box-sizing: border-box;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    width: 90%;
+    background-color: lightyellow;
+    color: #333;
+}
+
+div input {
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+}
+
+.button {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(91, 146, 91);
+    color: #333;
+    border-radius: 3px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+th {
+    background-color: rgb(91, 146, 91);
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: lightyellow;
+}

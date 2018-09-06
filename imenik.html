@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Imenik
+        </title>
+        <link rel="stylesheet" type="text/css" href="css/izgled.css">
+        <script type="text/javascript" src="js/imenik.js"></script>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Informacije:</legend>
+                <div>
+                    <p>Ime: </p>
+                    <input id="ime" type="text" name="ime" placeholder="Unesite ime ">
+                </div>
+                <div>
+                    <p>Prezime: </p>
+                    <input id="prezime" type="text" name="prezime" placeholder="Unesite prezime ">
+                </div>
+                <div>
+                    <p>Fixni telefon: </p>
+                    <input id="brfix" type="text" name="brfix" placeholder="000/000-000 ">
+                </div>
+                <div>
+                    <p>Mobilni telefon: </p>
+                    <input id="brmob" type="text" name="brmob" placeholder="060/000-0000 ">
+                </div>
+                <div>
+                    <p>e-mail adresa:</p>
+                    <input id="email" type="text" name="email" placeholder="Unesite e-mail " >
+                </div>
+                <div>
+                    <p>Adresa: </p>
+                    <input id="adresa" type="text" name="adresa" placeholder="Unesite adresu stanovanja" >
+                </div>
+                <div>
+                    <input type="button" class="button" value="SACUVAJ" onclick="unesi()">
+                    <input type="button" class="button" value="IMENIK" onclick="prikazi()">
+                </div>
+            </fieldset>
+        </form>
+        <table id="imenik">
+        </table>
+    <body>
+</html>
